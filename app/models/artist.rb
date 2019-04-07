@@ -4,5 +4,5 @@ class Artist < ActiveRecord::Base
   def song_count
     pluralize(artist.count, 'song')
   end
-  
+
 end
